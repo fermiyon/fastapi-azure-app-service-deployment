@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Azure, Selman!"}
+    return {"message": "Hello Azure, Selman! Continous Deployment on Azure Web App"}
 
 
 @app.get("/add/{num1}/{num2}")
